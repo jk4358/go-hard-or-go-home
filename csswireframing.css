@@ -1,0 +1,72 @@
+/* unvisited link */
+a:link {
+        color: lightsteelblue;
+}
+/* visited link */
+a:visited {
+        color: steelblue;
+}
+/* mouse over link */
+a:hover {
+    color: aliceblue;
+}
+/* selected link */
+a:active {
+    color: lightcyan;
+}
+a:focus {
+    color: aliceblue;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:'Open Sans Condensed',sans-serif;
+}
+
+
+h1 {
+    font-family:'Reenie Beanie',cursive;
+    margin-left: 475px;
+}
+
+#subtitle {
+    margin-top: 10px;
+    margin-left: 520px;
+}
+
+#banner {
+    margin-top: 40px;
+    margin-left: 600px;
+}
+
+div.column {
+    margin: 10px 50px 40px
+}
+
+div.closing {
+    font-family:'Homemade Apple',cursive;
+    margin-top: 0px;
+    margin-left: 640px;
+}
+
+p {
+    padding: 15px;
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+}
+
+.topleft {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}

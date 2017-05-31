@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Responsive Design</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Roboto+Condensed:300,400,700', rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="master.css">
+
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 55px;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+}
+    
+</style>
+</head>
+
+<body>   
+<ul>
+    <li><a href="responsivedesignmain.html">Home</a></li>
+    <li><a href="#news">About</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Travels</a>
+        <div class="dropdown-content">
+            <a href="washingtondc.html">Washington D.C.</a>
+            <a href="newyork.html">New York</a>
+            <a href="philippines.html">Philippines</a>
+            <a href="india.html">India</a>
+            <a href="korea.html">Korea</a>
+        </div>
+    </li>
+    <li><a href="#news">Contact</a></li>
+</ul>
+
+<div id="container">
+    <div id="bannerimage">
+        <img src="photos/img_1009.jpg" />
+        <div class="topright">THIRD CULTURE KIDS</div>
+    </div>
+</div>
+<div id="textwrapper">
+    <h1>“We travel not to escape life, but for life not to escape us.”</h1>
+    <p>"No, but where are you really from?” It is the question that automatically makes the hairs on the back of my neck stand up. Like many “third culture kids” (TCKs), I panic, wondering whether the question refers to my nationality, where I was born, where I am living now, or where my parents live.</p>
+    <p>The term, coined by the American sociologist Ruth Hill Useem, refers to a child who has spent a significant part of their formative years outside their parents’ culture. People who fit that bill have a tendency to mix and merge their birth culture with their adopted culture, creating one of their own: a third culture.</p>
+    <h3>Slide - Calvin Harris feat. Frank Ocean and Migos (2017)</h3>
+    <audio controls>
+        <source src="Calvin%20Harris%20Ft.%20Frank%20Ocean%20Y%20Migos%20-%20Slide.mp3" type="audio/mpeg">
+    </audio>
+ <div id="socialicons">
+        <img src="photos/33619.png" />
+        <img src="photos/Instagram2016_black-tran128px.png" />
+        <img src="photos/pinterest-4-512.png" />
+        <img src="photos/twitter-3-xxl.png" />
+    </div>
+    </div>
+<div id="footer">
+</div>
+</body>

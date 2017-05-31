@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>New York City</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700|Roboto+Condensed:300,400,700', rel='stylesheet' type='text/css'>
+    
+    <link rel="stylesheet" href="master.css">
+
+    <!-- Media query for narrow browser width -->
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+    <!-- Media query for medium browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+    <!-- Media query for full browser width -->
+    <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+    <!-- Prevent smartphones from scaling pages down -->
+    <meta name="viewport" content="initial-scale=1">
+
+<style>
+    
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: skyblue;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    position: relative;
+}
+
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 55px;
+    color: whitesmoke;
+}
+
+img { 
+    width: 100%;
+    height: auto;
+}
+    
+</style>
+</head>
+
+<body>   
+<ul>
+    <li><a href="responsivedesignmain.html">Home</a></li>
+    <li><a href="#news">About</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Travels</a>
+        <div class="dropdown-content">
+            <a href="washingtondc.html">Washington D.C.</a>
+            <a href="newyork.html">New York</a>
+            <a href="philippines.html">Philippines</a>
+            <a href="india.html">India</a>
+            <a href="korea.html">Korea</a>
+        </div>
+    </li>
+    <li><a href="#news">Contact</a></li>
+</ul>
+
+<div id="container">
+    <div id="bannerimage">
+        <img src="photos/HD-NYC-Backgrounds.jpg" />
+        <div class="topright">NEW YORK CITY</div>
+    </div>
+</div>
+    
+<div id="textwrapper">
+    <h1>"The City That Never Sleeps"</h1>
+    <h2>MANHATTAN</h2>
+    <p>When people think of New York City, Manhattan is often the first place they picture. It’s no wonder: the borough is home to big-name attractions, such as Central Park, the Empire State Building, St. Patrick’s Cathedral, the High Line and One World Observatory; world-class museums, restaurants and concert halls; and the bright lights of Times Square and Broadway. But there's more to the borough than the obvious sights. Manhattan contains charming neighborhoods and hidden green spaces, trendy boutiques and classic bars.</p>
+    <h2>BROOKLYN</h2>
+    <p>Brooklyn offers attractions for every type of traveler. Want to be on the cutting edge? Head for Williamsburg, where you can hear live music every night and shop for vintage threads. If you want to root for the home team, there’s pro hockey and basketball at Barclays Center in Downtown Brooklyn. Traveling with kids? Prospect Park and the stroller-filled sidewalks of Park Slope beckon, as does the area’s restaurant scene. And since the best things in life are free, consider a walk across the Brooklyn Bridge or along the scenic Brooklyn Heights promenade.</p>
+    <h2>THE BRONX</h2>
+    <p>People all around the world know the Bronx as the home of the New York Yankees, the Bronx Zoo and the New York Botanical Garden—not to mention as the birthplace of hip-hop. Look deeper and you’ll discover the quaint maritime village of City Island, the cultural attractions of Fordham and Belmont, aka the “real Little Italy,” centered on the restaurants and cafés of Arthur Avenue. Grand Concourse, in the South Bronx, is full of art deco marvels.</p>
+    <h2>QUEENS</h2>
+    <p>With adventurous art, international cuisine, gorgeous parks and world-class sporting events, Queens features attractions to satisfy nearly every taste. Sports lovers can watch the New York Mets play baseball at Citi Field and, in a venue nearly adjacent, see the US Open host the world’s best tennis players. But in Queens, every day can be an event, whether you’re sampling the delectable Greek cuisine of Astoria or authentic Chinese food in Flushing. View inventive art at MoMA PS1 and Socrates Sculpture Park in Long Island City, and take in the stunning flora at the Queens Botanical Garden.</p>
+    <h2>STATEN ISLAND</h2>
+    <p>Visitors shouldn’t miss the opportunity to explore Staten Island, renowned for its museums, historic landmarks, beaches and parkland—including the City’s largest forest preserve in the Staten Island Greenbelt. Reach NYC’s southernmost borough on a free ride aboard the Staten Island Ferry, an attraction in its own right. Take in a baseball game at Richmond County Bank Ballpark; experience a slice of colonial life at Historic Richmond Town; and visit Snug Harbor Cultural Center and Botanical Garden, with exhibits that pay tribute to local maritime heritage.</p>
+    </div>
+    <p><a href="https://www.lonelyplanet.com/usa/new-york-city"><img src="photos/Screen%20Shot%202017-04-04%20at%2010.41.45%20PM.png" /></a></p>
+    <div id="footer">
+    </div>
+</body>
